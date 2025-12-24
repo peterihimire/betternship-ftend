@@ -61,7 +61,6 @@ const Home: React.FC = () => {
     <div className="max-w-xl mx-auto p-6">
       <h1 className="text-2xl font-bold mb-4">Payments</h1>
 
-      {/* Create Payment */}
       <div className="flex gap-2 mb-4">
         <input
           type="number"
@@ -79,13 +78,12 @@ const Home: React.FC = () => {
         />
         <button
           onClick={createPayment}
-          className="bg-blue-600 text-white px-4 rounded"
+          className="bg-blue-600 text-black px-4 rounded"
         >
           Add
         </button>
       </div>
 
-      {/* List Payments */}
       <ul className="space-y-2">
         {payments.map((p) => (
           <li
