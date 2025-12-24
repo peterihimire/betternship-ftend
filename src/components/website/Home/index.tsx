@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-const API_URL = "http://localhost:8086/betternship/payment";
+const API_URL = "http://localhost:8086/api/betternship/v1/payment/payments";
 
 type Payment = {
   id: string;
